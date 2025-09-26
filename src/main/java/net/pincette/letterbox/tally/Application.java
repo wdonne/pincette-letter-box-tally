@@ -17,6 +17,9 @@ import static net.pincette.util.Util.tryToDoWithRethrow;
 
 import com.typesafe.config.Config;
 
+/**
+ * @author Werner Donné
+ */
 public class Application {
   private static final String NAMESPACE = "namespace";
 

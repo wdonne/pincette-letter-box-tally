@@ -26,6 +26,9 @@ import net.pincette.letterbox.kafka.Publisher;
 import net.pincette.letterbox.kafka.Publisher.Context;
 import net.pincette.netty.http.HttpServer;
 
+/**
+ * @author Werner Donné
+ */
 public class Server implements AutoCloseable {
   private static final String FORM = "form";
   private static final String FORM_ID = "/data/formId";

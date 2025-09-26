@@ -14,6 +14,7 @@ The configuration is managed by the [Lightbend Config package](https://github.co
 |otlp.grpc|No|The OpenTelemetry endpoint for logs and metrics. It should be a URL like `http://localhost:4317`.|
 |signingSecret|Yes|The secret that is used to verify the submissions. You should generate it in the Tally form designer.|
 |topic|Yes|The Kafka topic in which the messages are published.|
+|traceSamplePercentage|No|The percentage of distributed trace samples that are retained. The value should be between 1 and 100. The default is 10. You should use the same percentage in all components that contribute to a trace, otherwise you may see incomplete traces.|
 |tracesTopic|No|The Kafka topic to which the event traces are sent.|
 
 ## Telemetry
