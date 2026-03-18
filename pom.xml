@@ -6,7 +6,7 @@
 
   <groupId>net.pincette</groupId>
   <artifactId>pincette-letter-box-tally</artifactId>
-  <version>1.1.4</version>
+  <version>1.1.5</version>
   <name>pincette-letter-box-tally</name>
   <description>HTTP server that accepts JSON from Tally and puts it on Kafka
   </description>
@@ -58,17 +58,17 @@
     <dependency>
       <groupId>net.pincette</groupId>
       <artifactId>pincette-netty-http</artifactId>
-      <version>3.2.17</version>
+      <version>3.2.18</version>
     </dependency>
     <dependency>
       <groupId>net.pincette</groupId>
       <artifactId>pincette-letter-box-kafka</artifactId>
-      <version>1.1.4</version>
+      <version>1.1.5</version>
     </dependency>
     <dependency>
       <groupId>net.pincette</groupId>
       <artifactId>pincette-config-util</artifactId>
-      <version>1.0.4</version>
+      <version>1.0.5</version>
     </dependency>
     <dependency>
       <groupId>org.glassfish</groupId>
@@ -84,12 +84,6 @@
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-jdk14</artifactId>
       <version>2.0.17</version>
-    </dependency>
-    <dependency>
-      <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter</artifactId>
-      <version>5.14.1</version>
-      <scope>test</scope>
     </dependency>
   </dependencies>
 
