@@ -10,7 +10,7 @@ import java.util.logging.Logger;
 class Common {
   static final Logger LOGGER = getLogger("net.pincette.letterbox.tally");
   static final String LETTER_BOX_TALLY = "letter-box-tally";
-  static final String VERSION = "1.1.7";
+  static final String VERSION = "1.1.8";
 
   private Common() {}
 }
